@@ -2,11 +2,19 @@ $layout-name: 'l-mvv';
 
 .#{$layout-name} {
     &__title {
-        font-size: 1.75rem;
+        font-size: 2rem;
+
+        @media screen and (min-width: 1600px) {
+            font-size: 3rem;
+        }
     }
 
     &__text {
-        font-size: 1rem;
+        font-size: 1.125rem;
+
+        @media screen and (min-width: 1600px) {
+            font-size: 1.625rem;
+        }
     }
 
     &__col-child {
@@ -21,9 +29,9 @@ $layout-name: 'l-mvv';
                         }
                     }
 
-                    // &:nth-of-type(even) {
-                    //     padding-right: 0;
-                    // }
+                    &:nth-of-type(even) {
+                        padding-right: 0;
+                    }
                 }
 
                 &__title {
