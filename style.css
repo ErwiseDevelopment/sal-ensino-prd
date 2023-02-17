@@ -19,6 +19,7 @@ Text Domain: wp-bootstrap-starter-child
 	}
 }
 
+
 .l-top__social-media__item {
 	width: 30px !important;
 	height: 30px !important;
@@ -55,12 +56,6 @@ Text Domain: wp-bootstrap-starter-child
 	font-size: .875rem !important;
 }
 
-@media screen and (max-width: 991px) {
-	.l-navbar .nav-link {
-		color: #FFF !important
-	}
-}
-
 .l-news img {
     object-fit: cover !important;
 }
@@ -83,8 +78,15 @@ Text Domain: wp-bootstrap-starter-child
     overflow-y: hidden;
 }
 
-.l-blogs .card img {
+.l-blogs img {
 	width: 100%;
-	height: 215px;
+	height: 185px;
 	object-fit: cover;
 }
+
+.l-blogs__card-title {
+	max-height: 78px;
+	line-height: 26px;
+	overflow: hidden;
+}
+
